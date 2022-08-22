@@ -8,9 +8,14 @@
   // background-image:url("./img/1/clear.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
 
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media only screen and (max-height: 45em) {
+    background-size: 100% 100%;
+  }
 }

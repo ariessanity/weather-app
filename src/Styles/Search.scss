@@ -17,15 +17,25 @@
     border: none;
     border-bottom: 1px solid white;
     background-clip: text;
+
+    
    
 
     &:focus {
       outline: none;
     }
+
+    @media only screen and (max-width: 25.93em) {
+      font-size: 1.6rem;
+     }
   }
 
   &__icon {
     margin-top: 2rem;
     transform: scale(2);
+
+    @media only screen and (max-width: 25.93em) {
+      transform: scale(1.5);
+     }
   }
 }
