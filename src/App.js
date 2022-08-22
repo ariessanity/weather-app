@@ -21,7 +21,7 @@ import nightSnow from "./img/0/snow.jpg";
 function App() {
   const [search, setSearch] = useState("Davao");
   const { data, isPending, error } = useFetch(
-    `http://api.weatherapi.com/v1/current.json?key=4d436eb9dffc48aab86161516221608&q=${search}&aqi=no`
+    `https://api.weatherapi.com/v1/current.json?key=4d436eb9dffc48aab86161516221608&q=${search}&aqi=no`
   );
 
   const bgImage = [
