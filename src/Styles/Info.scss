@@ -1,0 +1,97 @@
+.info {
+    color: white;
+  
+
+    &__up {
+       
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        & > *:not(:last-child) {
+           margin-right: 3rem;
+        }
+    }
+
+   
+
+    &__degrees {
+        font-weight: 700;
+        font-size: 10rem;
+       
+    }
+
+    &__details {
+        font-size: 2rem;
+    
+    }
+
+    &__city {
+
+    }
+
+    &__date {
+
+    }
+
+    &__weather {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+
+    }
+
+    &__logo {
+        height: 10rem;
+        width: 10rem;
+      
+    }
+
+
+    &__down {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 2rem;
+    
+    }
+
+    &__wind {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-size: 3rem;
+            font-weight: 700;
+        }
+    }
+
+    &__humidity {
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25rem;
+
+        p{
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+     
+    }
+
+    &__time {
+        font-size: 5rem;
+    }
+
+}
